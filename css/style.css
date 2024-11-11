@@ -4,6 +4,16 @@ body{
     background-color: #fff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+}
+
 img{
     display: block;
 }
@@ -62,6 +72,7 @@ span{
 }
 
 .nav{
+    display: block;
     font-size: 16px;
     font-weight: 500;
     color: #2e2f42;
@@ -607,6 +618,10 @@ h2{
     border-color: #4D5AE5;
 }
 
+.modal-window-form-input-item:focus + .modal-window-form-input-icon{
+    fill: #4D5AE5;
+}
+
 .modal-window-form-input-icon{
     position: absolute;
     left: 16px;
@@ -639,7 +654,7 @@ h2{
     border-color: #4D5AE5;
 }
 
-.modal-window-form-comment-item:hover {
+.modal-window-form-comment-item:focus {
     border-color: #4D5AE5;
 }
 

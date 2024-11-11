@@ -48,6 +48,7 @@ span{
 
 .header-container{
     display: flex;
+    align-items: center;
 }
 
 .navigator{
@@ -137,6 +138,8 @@ span{
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .button{
@@ -166,7 +169,7 @@ span{
 
 .section-title{
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-                      url(./images/bg-title.jpg);
+                      url(../images/bg-title.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -660,6 +663,12 @@ h2{
 
 .modal-window-form-checkbox{
     margin-bottom: 24px;
+}
+
+.visually-hidden:checked + .modal-window-form-checkbox-label > .modal-window-form-span {
+    background-color: #404bbf;
+    fill: #F4F4FD;
+    border: none;
 }
 
 .modal-window-form-checkbox-label{
